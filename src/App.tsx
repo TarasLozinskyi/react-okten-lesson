@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import NewPost from "./components/newPost/NewPost";
+
 
 function App() {
   return (
     <div className="App">
-
+      <NewPost/>
     </div>
   );
 }
